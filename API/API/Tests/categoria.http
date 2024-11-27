@@ -1,0 +1,19 @@
+### Listar todas as categorias
+GET http://localhost:5000/api/categoria/listar
+
+### Cadastrar uma categoria
+POST http://localhost:5000/api/categoria/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Pessoal"
+}
+
+###Alterar Categoria
+
+PUT http://localhost:5000/api/categoria/alterar/39be53a2-fc09-4b6a-bafa-18a6a23c8f6e
+Content-Type: application/json
+
+{
+    "nome": "teste2"
+}
